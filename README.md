@@ -11,6 +11,7 @@ Time spent: **10** hours spent in total
 - Tested in version: 4.2
 - Fixed in version: 4.6.1
 - [x] GIF Walkthrough:
+<img src='https://github.com/snjgrg/WordPress-vs-Kali/blob/master/gif/image2.gif' title='imageGif' alt='imageGif' />
 
 
 - [x] Steps to recreate: Create a new media post and upload an image with the following filename format:
