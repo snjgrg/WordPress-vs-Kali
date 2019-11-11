@@ -18,3 +18,16 @@ Time spent: **10** hours spent in total
 ```
 filename<img src=a onerror=alert(1)>.jpeg
 ```
+
+2. (Required)WordPress => 4.2 - User Authentication
+- [x] Summary:
+- [x] Summary: The system was able to find out if any specific username exists or when we login with any username and password as admin
+- Vulnerability types: user authentication,
+- Tested in version: 4.2
+- [x] GIF Walkthrough: 
+
+<img src='' title='imageGif' alt='imageGif' />
+<img src='' title='gif2' alt='gif2' />
+
+
+- [x] Steps to recreate:
