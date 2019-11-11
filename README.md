@@ -41,11 +41,12 @@ during the processing of shortcode tags are mishandled.
 - Tested in version: 4.2
 - Fixed in version: 4.3
 - [x] GIF Walkthrough:
+<img src='https://github.com/snjgrg/WordPress-vs-Kali/blob/master/gif/alert.gif'  title='imageGif' alt='imageGif' />
 
 - [x] Steps to recreate: Create a new post and place the following code in the body:
 
 ```
-<a href="" "onclick=alert(1)">check</a>
+<a href="" onclick="alert(1)">try</a>
 ```
 
 # Resources
