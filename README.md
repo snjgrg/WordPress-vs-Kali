@@ -33,6 +33,21 @@ filename<img src=a onerror=alert(1)>.jpeg
 - [x] Steps to recreate:
 Enter "admin" as username and type random password.
 Enter "different name" as username and type "admin" as password.
+
+3. (Required) WordPress <= 4.3 - Authenticated Shortcode Tags Cross-Site Scripting (XSS)
+- [x] Summary: A stored/persistent, Cross-Site script XSS vulnerablilty which allows remote attackers to inject arbitrary web script/HTML by abusing the way unclosed HTML elements
+during the processing of shortcode tags are mishandled.
+- Vulnerability types: XSS
+- Tested in version: 4.2
+- Fixed in version: 4.3
+- [x] GIF Walkthrough:
+
+- [x] Steps to recreate: Create a new post and place the following code in the body:
+
+```
+<a href="" "onclick=alert(1)">check</a>
+```
+
 # Resources
 
 - [WordPress Source Browser](https://core.trac.wordpress.org/browser/)
