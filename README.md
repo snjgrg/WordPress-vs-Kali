@@ -27,7 +27,6 @@ filename<img src=a onerror=alert(1)>.jpeg
 - [x] GIF Walkthrough: 
 
 <img src='https://github.com/snjgrg/WordPress-vs-Kali/blob/master/gif/signin.gif' title='imageGif' alt='imageGif' />
-<img src='https://github.com/snjgrg/WordPress-vs-Kali/blob/master/gif/signin.gif' title='gif2' alt='gif2' />
 
 
 - [x] Steps to recreate:
